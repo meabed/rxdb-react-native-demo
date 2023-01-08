@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "rxdb-demo",
+    "slug": "rxdb-demo",
+    "version": "1.0.0",
+    "sdkVersion": "47.0.12",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "package": "com.meabed.rxdbdemo"
+    },
+    "ios": {
+      "bundleIdentifier": "com.meabed.rxdbdemo"
+    }
+  }
+}
