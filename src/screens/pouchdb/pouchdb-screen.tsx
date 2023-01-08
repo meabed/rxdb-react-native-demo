@@ -2,7 +2,7 @@ import { useRxdbPouchdbStart } from '../../rxdb/use-rxdb-pouchdb-start';
 import React from 'react';
 import { Text, View } from 'react-native';
 
-export function HomeScreen() {
+export function PouchdbScreen() {
   const { isReady } = useRxdbPouchdbStart();
   if (!isReady) {
     return null;
@@ -10,7 +10,7 @@ export function HomeScreen() {
 
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
+      <Text>RxDB PouchDB</Text>
     </View>
   );
 }

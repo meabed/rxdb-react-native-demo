@@ -1,5 +1,5 @@
-import { HomeScreen } from './src/screens/home/home-screen';
-import { SettingsScreen } from './src/screens/settings/settings-screen';
+import { PouchdbScreen } from './src/screens/pouchdb/pouchdb-screen';
+import { PremiumScreen } from './src/screens/premium/premium-screen';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
@@ -10,8 +10,8 @@ function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name='Home' component={HomeScreen} />
-        <Tab.Screen name='Settings' component={SettingsScreen} />
+        <Tab.Screen name='PouchDB' component={PouchdbScreen} />
+        <Tab.Screen name='Premium' component={PremiumScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );

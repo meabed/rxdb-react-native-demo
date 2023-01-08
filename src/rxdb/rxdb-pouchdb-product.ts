@@ -29,18 +29,19 @@ export async function createProductReplication() {
       pull: {
         batchSize: 25,
         async handler(lastCheckpoint, batchSize) {
-          const lastId = lastCheckpoint ? lastCheckpoint.id : undefined;
+          const lastId = lastCheckpoint ? lastCheckpoint.uuid : undefined;
           try {
             logger.debug(`[RxDB-PouchDB] Pulling product from API with lastId: ${lastId}`);
-            const { data } = await axios.get(`https://dummyjson.com/products?limit=10&skip=${lastId}`);
+            const { data } = await axios.get(`https://dummyjson.com/products?limit=10&skip=${lastId ?? 0}`);
             const documentsFromRemote: RxDBProduct[] =
               data?.products?.map((e) => {
+                const uuid = e.id.toString();
                 return {
-                  id: e.id,
+                  uuid: uuid,
                   _deleted: false,
                   createdAt: new Date().toISOString(),
                   updatedAt: new Date().toISOString(),
-                  data: e,
+                  data: { ...e, uuid },
                 } as RxDocumentData<RxDBProduct>;
               }) ?? [];
             return {
@@ -50,7 +51,7 @@ export async function createProductReplication() {
                 documentsFromRemote.length === 0
                   ? lastCheckpoint
                   : {
-                      id: lastOfArray(documentsFromRemote).id,
+                      uuid: lastOfArray(documentsFromRemote).uuid,
                       updatedAt: lastOfArray(documentsFromRemote).updatedAt,
                     },
             };

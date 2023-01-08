@@ -2,8 +2,8 @@ import { RxCollectionCreator } from 'rxdb/dist/types/types/rx-collection';
 
 const collectionVersion = 0;
 const commonJson: RxCollectionCreator['schema']['properties'] = {
-  id: {
-    type: 'number',
+  uuid: {
+    type: 'string',
     maxLength: 100,
   },
   data: {
@@ -27,12 +27,12 @@ export const rxdbCollections: Record<string, RxCollectionCreator> = {
     schema: {
       keyCompression: false,
       version: collectionVersion,
-      primaryKey: 'id',
+      primaryKey: 'uuid',
       type: 'object',
       properties: {
         ...commonJson,
       },
-      required: ['id', 'data', 'createdAt', 'updatedAt'],
+      required: ['uuid', 'data', 'createdAt', 'updatedAt'],
       indexes: ['createdAt', 'updatedAt'],
     },
   },
@@ -41,12 +41,13 @@ export const rxdbCollections: Record<string, RxCollectionCreator> = {
 //
 
 export const retryTimes = {
-  product: 7 * 1000,
+  product: 3 * 1000,
 };
 
 //
 export interface Product {
   id: number;
+  uuid: string;
   title: string;
   description: string;
   price: number;
@@ -62,7 +63,7 @@ export interface Product {
 }
 
 export interface RxDBProduct {
-  id: number;
+  uuid: string;
   createdAt: string;
   updatedAt: string;
   _deleted: boolean;
@@ -70,6 +71,6 @@ export interface RxDBProduct {
 }
 
 export interface RxDBProductCheckpoint {
-  id: number;
+  uuid: string;
   updatedAt: string;
 }
