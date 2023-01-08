@@ -39,8 +39,8 @@ export async function createProductReplication() {
                 return {
                   sid: sid,
                   _deleted: false,
-                  createdAt: new Date().toISOString(),
-                  updatedAt: new Date().toISOString(),
+                  createdAt: (new Date().getTime() + e.id * 1000).toString(),
+                  updatedAt: (new Date().getTime() + e.id * 1000).toString(),
                   data: { ...e, sid },
                 } as RxDocumentData<RxDBProduct>;
               }) ?? [];

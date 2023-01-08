@@ -20,9 +20,9 @@ export function ProductList() {
       {productList?.map((p) => {
         return (
           <>
-            <View>
-              <Text key={p.sid}>
-                {p.id} :: {p.title}
+            <View key={p.sid}>
+              <Text>
+                {p.sid} :: {p.title}
               </Text>
             </View>
           </>
