@@ -11,7 +11,15 @@ export function PremiumScreen() {
 
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>RxDB Premium</Text>
+      <Text
+        style={{
+          fontSize: 20,
+          textAlign: 'center',
+          marginTop: 10,
+        }}
+      >
+        RxDB Premium
+      </Text>
       <Button
         title={'Delete RxDB Premium Database'}
         onPress={async () => {

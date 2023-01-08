@@ -11,7 +11,15 @@ export function PouchdbScreen() {
 
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>RxDB PouchDB</Text>
+      <Text
+        style={{
+          fontSize: 20,
+          textAlign: 'center',
+          marginTop: 10,
+        }}
+      >
+        RxDB PouchDB
+      </Text>
       <Button
         title={'Delete RxDB PouchDB Database'}
         onPress={async () => {
