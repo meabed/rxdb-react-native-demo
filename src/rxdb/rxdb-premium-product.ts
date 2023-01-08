@@ -29,19 +29,19 @@ export async function createProductReplication() {
       pull: {
         batchSize: 25,
         async handler(lastCheckpoint, batchSize) {
-          const lastId = lastCheckpoint ? lastCheckpoint.uuid : undefined;
+          const lastId = lastCheckpoint ? lastCheckpoint.sid : undefined;
           try {
             logger.debug(`[RxDB-Premium] Pulling product from API with lastId: ${lastId}`);
             const { data } = await axios.get(`https://dummyjson.com/products?limit=10&skip=${lastId ?? 0}`);
             const documentsFromRemote: RxDBProduct[] =
               data?.products?.map((e) => {
-                const uuid = e.id.toString();
+                const sid = e.id.toString();
                 return {
-                  uuid: uuid,
+                  sid: sid,
                   _deleted: false,
                   createdAt: new Date().toISOString(),
                   updatedAt: new Date().toISOString(),
-                  data: { ...e, uuid },
+                  data: { ...e, sid },
                 } as RxDocumentData<RxDBProduct>;
               }) ?? [];
             return {
@@ -51,7 +51,7 @@ export async function createProductReplication() {
                 documentsFromRemote.length === 0
                   ? lastCheckpoint
                   : {
-                      uuid: lastOfArray(documentsFromRemote).uuid,
+                      sid: lastOfArray(documentsFromRemote).sid,
                       updatedAt: lastOfArray(documentsFromRemote).updatedAt,
                     },
             };

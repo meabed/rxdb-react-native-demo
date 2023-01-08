@@ -21,7 +21,7 @@ export function ProductList() {
         return (
           <>
             <View>
-              <Text key={p.uuid}>
+              <Text key={p.sid}>
                 {p.id} :: {p.title}
               </Text>
             </View>
