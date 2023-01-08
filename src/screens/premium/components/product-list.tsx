@@ -16,16 +16,22 @@ export function ProductList() {
   }
   return (
     <ScrollView>
-      <Text>Product List</Text>
+      <Text
+        style={{
+          fontSize: 20,
+          textAlign: 'center',
+          marginBottom: 10,
+        }}
+      >
+        RxDB Premium Product List
+      </Text>
       {productList?.map((p) => {
         return (
-          <>
-            <View key={p.sid}>
-              <Text>
-                {p.sid} :: {p.title}
-              </Text>
-            </View>
-          </>
+          <View key={p.sid}>
+            <Text>
+              {p.sid} :: {p.title}
+            </Text>
+          </View>
         );
       })}
     </ScrollView>

@@ -1,7 +1,7 @@
 import { deleteRxDBReplication, useRxdbPouchdbStart } from '../../rxdb/use-rxdb-pouchdb-start';
 import { ProductList } from './components/product-list';
 import React from 'react';
-import { Button, Text, View } from 'react-native';
+import { Alert, Button, Text, View } from 'react-native';
 
 export function PouchdbScreen() {
   const { isReady } = useRxdbPouchdbStart();
@@ -13,9 +13,25 @@ export function PouchdbScreen() {
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>RxDB PouchDB</Text>
       <Button
-        title={'Delete Database'}
+        title={'Delete RxDB PouchDB Database'}
         onPress={async () => {
-          await deleteRxDBReplication();
+          Alert.alert(
+            'Delete RxDB PouchDB Database',
+            'Are you sure you want to delete the RxDB PouchDB database?',
+            [
+              {
+                text: 'Cancel',
+                style: 'cancel',
+              },
+              {
+                text: 'OK',
+                onPress: async () => {
+                  await deleteRxDBReplication();
+                },
+              },
+            ],
+            { cancelable: false }
+          );
         }}
       />
       <ProductList />

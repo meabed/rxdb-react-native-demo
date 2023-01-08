@@ -32,7 +32,7 @@ export async function createProductReplication() {
           const lastId = lastCheckpoint ? lastCheckpoint.sid : undefined;
           try {
             logger.debug(`[RxDB-Premium] Pulling product from API with lastId: ${lastId}`);
-            const { data } = await axios.get(`https://dummyjson.com/products?limit=10&skip=${lastId ?? 0}`);
+            const { data } = await axios.get(`https://dummyjson.com/products?limit=${batchSize}&skip=${lastId ?? 0}`);
             const documentsFromRemote: RxDBProduct[] =
               data?.products?.map((e) => {
                 const sid = e.id.toString();
