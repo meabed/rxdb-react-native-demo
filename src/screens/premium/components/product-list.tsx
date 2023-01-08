@@ -3,7 +3,10 @@ import { ScrollView, Text, View } from 'react-native';
 
 export function ProductList() {
   const [{ isReady, productList }] = useListProductsRxdbPremium({
-    selector: {},
+    selector: {
+      // example IN Query
+      // sid: { $in: ['1', '100'] }
+    },
     limit: 200,
     sort: [{ createdAt: 'desc' }],
   });
