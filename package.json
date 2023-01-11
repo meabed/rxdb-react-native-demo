@@ -10,12 +10,12 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@react-navigation/bottom-tabs": "^6.5.2",
-    "@react-navigation/native": "^6.1.1",
-    "@react-navigation/native-stack": "^6.9.7",
+    "@react-navigation/bottom-tabs": "^6.5.3",
+    "@react-navigation/native": "^6.1.2",
+    "@react-navigation/native-stack": "^6.9.8",
     "axios": "^1.2.2",
     "events": "^3.3.0",
-    "expo": "^47.0.12",
+    "expo": "^47.0.13",
     "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
     "fast-text-encoding": "1.0.6",

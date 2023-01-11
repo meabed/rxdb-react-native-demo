@@ -5,7 +5,7 @@ export function ProductList() {
   const [{ isReady, productList }] = useListProductsRxdbPremium({
     selector: {
       // example IN Query
-      // sid: { $in: ['1', '100'] }
+      sid: { $in: ['1', '100'] },
     },
     limit: 200,
     sort: [{ createdAt: 'desc' }],
