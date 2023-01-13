@@ -41,7 +41,7 @@ export const rxdbCollections: Record<string, RxCollectionCreator> = {
 //
 
 export const retryTimes = {
-  product: 3 * 1000,
+  product: 10 * 1000, // 10 seconds
 };
 
 //
