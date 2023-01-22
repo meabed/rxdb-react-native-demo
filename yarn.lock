@@ -7560,10 +7560,10 @@ react-native-gradle-plugin@^0.70.3:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz#cbcf0619cbfbddaa9128701aa2d7b4145f9c4fc8"
   integrity sha512-oOanj84fJEXUg9FoEAQomA8ISG+DVIrTZ3qF7m69VQUJyOGYyDZmPqKcjvRku4KXlEH6hWO9i4ACLzNBh8gC0A==
 
-react-native-quick-sqlite@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/react-native-quick-sqlite/-/react-native-quick-sqlite-6.1.1.tgz#ba35d0a4a919a5a0962306c3fee4dc46983b0839"
-  integrity sha512-bVV7+mWAhWH/0iPjQmDlLHqTIkYm+j+k5pFiy+3jW91DnkH44C0tR4DSeRa6ERLz1fG/lDB1KwcBU3fOL9vFCA==
+react-native-quick-sqlite@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-quick-sqlite/-/react-native-quick-sqlite-7.0.0.tgz#a8bd9344a784f391392d5ac703ebd1d6db06889f"
+  integrity sha512-SSJeC2ERhZz90IhCr4MZIs34+OStnfD7ziCi+XC43/YU/eymC4ko9pFmnb57e4bPRjkT891C4D4R+c2TM7QzeQ==
 
 react-native-restart@^0.0.24:
   version "0.0.24"
