@@ -7789,10 +7789,10 @@ react-native-quick-sqlite@^7.0.0:
   resolved "https://registry.yarnpkg.com/react-native-quick-sqlite/-/react-native-quick-sqlite-7.0.0.tgz#a8bd9344a784f391392d5ac703ebd1d6db06889f"
   integrity sha512-SSJeC2ERhZz90IhCr4MZIs34+OStnfD7ziCi+XC43/YU/eymC4ko9pFmnb57e4bPRjkT891C4D4R+c2TM7QzeQ==
 
-react-native-restart@^0.0.26:
-  version "0.0.26"
-  resolved "https://registry.yarnpkg.com/react-native-restart/-/react-native-restart-0.0.26.tgz#9bd16d866795cc8b91dd3e39eafc6b6c5f1ea92b"
-  integrity sha512-QYuMlhCxU6z8/ASw138fjLOjK8jGUqTHK8PftB0KvOSKAq3oZqY0WHapxnyg+cNEhKmnARseMF0naMkrIQY/fA==
+react-native-restart@^0.0.27:
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/react-native-restart/-/react-native-restart-0.0.27.tgz#43aa8210312c9dfa5ec7bd4b2f35238ad7972b19"
+  integrity sha512-8KScVICrXwcTSJ1rjWkqVTHyEKQIttm5AIMGSK1QG1+RS5owYlE4z/1DykOTdWfVl9l16FIk0w9Xzk9ZO6jxlA==
 
 react-native-safe-area-context@^4.4.1:
   version "4.4.1"
