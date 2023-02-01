@@ -23,7 +23,7 @@
     "pouchdb-adapter-react-native-sqlite": "3.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "0.71.1",
+    "react-native": "0.71.2",
     "react-native-get-random-values": "1.8.0",
     "react-native-quick-sqlite": "^7.0.0",
     "react-native-restart": "^0.0.27",
