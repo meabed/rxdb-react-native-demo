@@ -31,7 +31,7 @@
     "react-native-screens": "^3.18.2",
     "react-native-sqlite-2": "3.6.2",
     "react-native-web": "~0.18.10",
-    "rxdb": "^13.17.1",
+    "rxdb": "^14.0.0",
     "rxjs": "^7.8.0"
   },
   "devDependencies": {
