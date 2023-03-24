@@ -7757,9 +7757,7 @@ run-parallel@^1.1.9:
     queue-microtask "^1.2.2"
 
 rxdb@^14.0.0:
-  version "14.3.7"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.3.7.tgz#40fd940acaffe6c1772ae03bd1625c635efe4166"
-  integrity sha512-j3g8o99sXC7tazItDOA6z6DbvKyMVFVP1W08VHaP4I7tuZ7yR3frPPKwrxOfz+NU2OCoFUQuSTWsFDXJgr+D5A==
+  version "14.4.0"
   dependencies:
     "@babel/runtime" "7.21.0"
     "@types/clone" "2.1.1"
