@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
-    "@ianvs/prettier-plugin-sort-imports": "3.7.1",
+    "@ianvs/prettier-plugin-sort-imports": "3.7.2",
     "@types/fast-text-encoding": "1.0.1",
     "@types/intl": "1.2.0",
     "@types/react": "~18.0.26",
