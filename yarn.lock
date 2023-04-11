@@ -2648,9 +2648,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@~18.0.26":
-  version "18.0.33"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.33.tgz#a1575160cb4376787c2f5fe0312302f824baa61e"
-  integrity sha512-sHxzVxeanvQyQ1lr8NSHaj0kDzcNiGpILEVt69g9S31/7PfMvNCKLKcsHw4lYKjs3cGNJjXSP4mYzX43QlnjNA==
+  version "18.0.34"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.34.tgz#e553444a578f023e6e1ac499514688fb80b0a984"
+  integrity sha512-NO1UO8941541CJl1BeOXi8a9dNKFK09Gnru5ZJqkm4Q3/WoQJtHvmwt0VX0SB9YCEwe7TfSSxDuaNmx6H2BAIQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -7819,9 +7819,9 @@ run-parallel@^1.1.9:
     queue-microtask "^1.2.2"
 
 rxdb@^14.0.0:
-  version "14.6.4"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.6.4.tgz#1afdfb2fa920f24a3eac1d4282da9e79da3ee49a"
-  integrity sha512-RzVGLstEJf1NX2xIOcNyAY6+yhzimn/qhvnxoSTgwgRoH2FQptFD+FBPbQveXl9AwcNR1fRJcN9sMafDPWwGjw==
+  version "14.6.5"
+  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.6.5.tgz#3f4c5167cb046e6d4d49f5eb83011f9f106680e4"
+  integrity sha512-41tIlYDqrjAJj/hHOuwQCy2V8wwlxZlrD8pgIRBhyLTK+0DcMZZ4Zh1+phz/vfU4pkHOCZLu43XaTGwSk23DZg==
   dependencies:
     "@babel/runtime" "7.21.0"
     "@types/clone" "2.1.1"
