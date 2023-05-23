@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "433118003101",
+    "project_id": "xpertsea-prod-env",
+    "storage_bucket": "xpertsea-prod-env.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433118003101:android:6241ed7a768ce0d7dd7974",
+        "android_client_info": {
+          "package_name": "com.xpertsea.insights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433118003101-jmpm90if3af6eor47ktjs0k1v9l2a6up.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xpertsea.insights",
+            "certificate_hash": "84b1c8df15ccc71dba1beeb265a9121e19345f02"
+          }
+        },
+        {
+          "client_id": "433118003101-1d9cmm9rp9fqjthofe8o97kdpfmmh2m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-540axkPXjnADdXw70zUobHVNm58ZhdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433118003101-1d9cmm9rp9fqjthofe8o97kdpfmmh2m9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433118003101-9h2fjr0trb9ser3ks0311acer68llavr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.xpertsea.insights",
+                "app_store_id": "1644229790"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
