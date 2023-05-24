@@ -8016,10 +8016,10 @@ react-native-codegen@^0.71.5:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
-react-native-file-access@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/react-native-file-access/-/react-native-file-access-3.0.2.tgz#30ab21eb95ce7ab220cdf8414b1ae7fa9bb95b77"
-  integrity sha512-9IXiHz6rWcVLvuRiGMQQ7fAsvWqTLKK70HZ/MDFM1muRLQIlZCHmcacQZHL1T+QtC+iPmZxUwOL0mNSLkBtJSw==
+react-native-file-access@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-file-access/-/react-native-file-access-3.0.3.tgz#1a6503e9740356586b46e11eba32d913622d5248"
+  integrity sha512-ZUrbDHPWm9FsoA7I0oRJ9KIUQFHrp8vcvPuD1/p+Pkfr8ehERwPiqDIK1ff/W6sqhQMaNT73bsSzSrYzAaVNVg==
 
 react-native-get-random-values@1.9.0:
   version "1.9.0"

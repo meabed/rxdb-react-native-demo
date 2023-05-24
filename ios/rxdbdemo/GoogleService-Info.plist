@@ -2,35 +2,5 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CLIENT_ID</key>
-	<string>433118003101-9h2fjr0trb9ser3ks0311acer68llavr.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.433118003101-9h2fjr0trb9ser3ks0311acer68llavr</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>433118003101-jmpm90if3af6eor47ktjs0k1v9l2a6up.apps.googleusercontent.com</string>
-	<key>API_KEY</key>
-	<string>AIzaSyBW2VHj4LMhjPAFuS1DVLo6qyj9IFp0Jkg</string>
-	<key>GCM_SENDER_ID</key>
-	<string>433118003101</string>
-	<key>PLIST_VERSION</key>
-	<string>1</string>
-	<key>BUNDLE_ID</key>
-	<string>com.xpertsea.insights</string>
-	<key>PROJECT_ID</key>
-	<string>xpertsea-prod-env</string>
-	<key>STORAGE_BUCKET</key>
-	<string>xpertsea-prod-env.appspot.com</string>
-	<key>IS_ADS_ENABLED</key>
-	<false></false>
-	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
-	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
-	<key>IS_GCM_ENABLED</key>
-	<true></true>
-	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
-	<key>GOOGLE_APP_ID</key>
-	<string>1:433118003101:ios:cf26692256d9c929dd7974</string>
 </dict>
 </plist>
