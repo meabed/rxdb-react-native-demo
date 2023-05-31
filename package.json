@@ -15,9 +15,9 @@
     "@react-navigation/native": "6.1.6",
     "@react-navigation/native-stack": "6.9.12",
     "axios": "1.4.0",
-    "dotenv": "16.0.3",
+    "dotenv": "16.1.2",
     "events": "3.3.0",
-    "expo": "48.0.17",
+    "expo": "48.0.18",
     "expo-build-properties": "0.6.0",
     "expo-notifications": "0.18.1",
     "expo-splash-screen": "~0.18.2",
@@ -39,7 +39,7 @@
     "rxjs": "7.8.1"
   },
   "devDependencies": {
-    "@babel/core": "7.21.8",
+    "@babel/core": "7.22.1",
     "@ianvs/prettier-plugin-sort-imports": "3.7.2",
     "@types/fast-text-encoding": "1.0.1",
     "@types/intl": "1.2.0",
