@@ -14,10 +14,10 @@
     "@react-navigation/bottom-tabs": "6.5.8",
     "@react-navigation/native": "6.1.7",
     "@react-navigation/native-stack": "6.9.13",
-    "axios": "1.4.0",
+    "axios": "1.5.0",
     "dotenv": "16.3.1",
     "events": "3.3.0",
-    "expo": "49.0.7",
+    "expo": "49.0.8",
     "expo-build-properties": "0.8.3",
     "expo-notifications": "0.20.1",
     "expo-splash-screen": "~0.20.0",
@@ -39,15 +39,15 @@
     "rxjs": "7.8.1"
   },
   "devDependencies": {
-    "@babel/core": "7.22.10",
+    "@babel/core": "7.22.11",
     "@ianvs/prettier-plugin-sort-imports": "4.1.0",
     "@types/fast-text-encoding": "1.0.1",
     "@types/intl": "1.2.0",
     "@types/react": "~18.2.6",
     "@types/react-dom": "18.2.7",
     "@types/react-native": "~0.72.1",
-    "prettier": "3.0.1",
+    "prettier": "3.0.2",
     "pretty-quick": "3.1.3",
-    "typescript": "5.1.6"
+    "typescript": "5.2.2"
   }
 }
