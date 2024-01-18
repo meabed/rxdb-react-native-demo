@@ -37,7 +37,7 @@ function appConfig({ config }: ConfigContext): Partial<ExpoConfig> {
             disableAutomaticComponentCreation: true,
           },
           ios: {
-            deploymentTarget: '13.0',
+            deploymentTarget: '13.4',
             useFrameworks: 'static',
           },
         },
