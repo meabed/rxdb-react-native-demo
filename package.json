@@ -11,13 +11,13 @@
   },
   "dependencies": {
     "@config-plugins/android-jsc-intl": "7.0.0",
-    "@react-navigation/bottom-tabs": "6.5.17",
-    "@react-navigation/native": "6.1.15",
-    "@react-navigation/native-stack": "6.9.23",
-    "axios": "1.6.7",
+    "@react-navigation/bottom-tabs": "6.5.20",
+    "@react-navigation/native": "6.1.17",
+    "@react-navigation/native-stack": "6.9.26",
+    "axios": "1.6.8",
     "dotenv": "16.4.5",
     "events": "3.3.0",
-    "expo": "50.0.11",
+    "expo": "50.0.14",
     "expo-build-properties": "0.11.1",
     "expo-notifications": "0.27.6",
     "expo-splash-screen": "~0.26.3",
@@ -28,8 +28,8 @@
     "pouchdb-adapter-react-native-sqlite": "3.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "0.73.5",
-    "react-native-file-access": "3.0.5",
+    "react-native": "0.73.6",
+    "react-native-file-access": "3.0.6",
     "react-native-get-random-values": "1.11.0",
     "react-native-restart": "0.0.27",
     "react-native-safe-area-context": "4.8.2",
@@ -39,15 +39,15 @@
     "rxjs": "7.8.1"
   },
   "devDependencies": {
-    "@babel/core": "7.24.0",
-    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@babel/core": "7.24.3",
+    "@ianvs/prettier-plugin-sort-imports": "4.2.1",
     "@types/fast-text-encoding": "1.0.3",
     "@types/intl": "1.2.2",
     "@types/react": "~18.2.48",
-    "@types/react-dom": "18.2.21",
-    "@types/react-native": "~0.72.8",
+    "@types/react-dom": "18.2.22",
+    "@types/react-native": "~0.73.0",
     "prettier": "3.2.5",
     "pretty-quick": "4.0.0",
-    "typescript": "5.4.2"
+    "typescript": "5.4.3"
   }
 }
