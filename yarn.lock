@@ -1553,10 +1553,10 @@
     "@babel/helper-validator-identifier" "^7.24.5"
     to-fast-properties "^2.0.0"
 
-"@config-plugins/android-jsc-intl@7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@config-plugins/android-jsc-intl/-/android-jsc-intl-7.0.0.tgz#a73410e748d31436c9b8b7c8ec04481f9fcbd7e7"
-  integrity sha512-IYWwb9D1LVUi68vdOFPSVfNvvzg3mAw4XHA5EB+73vGfvzchJwFmd/LwJ2LQKP1Dc5GDE3bzQs2NllXZQMvpHg==
+"@config-plugins/android-jsc-intl@8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@config-plugins/android-jsc-intl/-/android-jsc-intl-8.0.0.tgz#4c1b0f0b3d11003dfef703d9923932ac30e37018"
+  integrity sha512-20LxAU1lSDQtHLKQLdZBar65ewRjHyD8QQEeQ3oSj8dfLNmfwnhgtOsrc+IzeeR+djgQFJ+3yxsO+lRlASyq0Q==
 
 "@craftzdog/pouchdb-adapter-websql-core@^7.2.3":
   version "7.2.3"
