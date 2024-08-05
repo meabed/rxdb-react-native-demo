@@ -25,7 +25,7 @@
     "expo-system-ui": "^3.0.0",
     "fast-text-encoding": "1.0.6",
     "intl": "1.2.5",
-    "pouchdb-adapter-react-native-sqlite": "3.0.1",
+    "pouchdb-adapter-react-native-sqlite": "4.0.4",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.74.3",
