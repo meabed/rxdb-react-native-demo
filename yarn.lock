@@ -2152,10 +2152,10 @@
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
 
-"@config-plugins/android-jsc-intl@8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@config-plugins/android-jsc-intl/-/android-jsc-intl-8.0.0.tgz#4c1b0f0b3d11003dfef703d9923932ac30e37018"
-  integrity sha512-20LxAU1lSDQtHLKQLdZBar65ewRjHyD8QQEeQ3oSj8dfLNmfwnhgtOsrc+IzeeR+djgQFJ+3yxsO+lRlASyq0Q==
+"@config-plugins/android-jsc-intl@11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@config-plugins/android-jsc-intl/-/android-jsc-intl-11.0.0.tgz#829b168bf27a6db1efac2e08c1e6c1abceccca4d"
+  integrity sha512-1hY+4YT3sWmKmBhyEtFmD+q/S49T1LIpyg/cROFNgWwijSDVo2J8N7SSjb4DGoJ6Z0VNf15W6xwc4SlIhG4l9w==
 
 "@expo/bunyan@^4.0.0":
   version "4.0.0"
