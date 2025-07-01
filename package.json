@@ -15,7 +15,7 @@
     "@react-navigation/native": "7.1.14",
     "@react-navigation/native-stack": "7.3.21",
     "axios": "1.10.0",
-    "dotenv": "16.6.1",
+    "dotenv": "17.0.0",
     "events": "3.3.0",
     "expo": "52.0.47",
     "expo-build-properties": "0.14.7",
