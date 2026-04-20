@@ -8920,10 +8920,10 @@ react-native-edge-to-edge@1.6.0:
   resolved "https://registry.yarnpkg.com/react-native-edge-to-edge/-/react-native-edge-to-edge-1.6.0.tgz#2ba63b941704a7f713e298185c26cde4d9e4b973"
   integrity sha512-2WCNdE3Qd6Fwg9+4BpbATUxCLcouF6YRY7K+J36KJ4l3y+tWN6XCqAC4DuoGblAAbb2sLkhEDp4FOlbOIot2Og==
 
-react-native-file-access@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/react-native-file-access/-/react-native-file-access-3.1.1.tgz#023fc8a82ccc0e49761a76e87760f674f1695eb0"
-  integrity sha512-4KUpBAsnWJa+AQf1tUbLdHO+1pyiZMTeq3NPf5XOGdz1O5CwIrVkrzl+gkN7ffmUa5JyoYHyXUtwScmA+z0Tlg==
+react-native-file-access@4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-file-access/-/react-native-file-access-4.0.3.tgz#9ca6834e107a3ffa6917fbb2c64ef442fbd47c57"
+  integrity sha512-7xiUcjMhicMM+WmWbO2U2iutXcoYxi3IxScB08kHle6XfBomAV9e2MtszCR7aoSfYNSblpKKqSefra6zFKXxTw==
 
 react-native-get-random-values@1.11.0:
   version "1.11.0"
