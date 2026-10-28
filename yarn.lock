@@ -8925,10 +8925,10 @@ react-native-file-access@3.1.1:
   resolved "https://registry.yarnpkg.com/react-native-file-access/-/react-native-file-access-3.1.1.tgz#023fc8a82ccc0e49761a76e87760f674f1695eb0"
   integrity sha512-4KUpBAsnWJa+AQf1tUbLdHO+1pyiZMTeq3NPf5XOGdz1O5CwIrVkrzl+gkN7ffmUa5JyoYHyXUtwScmA+z0Tlg==
 
-react-native-get-random-values@1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/react-native-get-random-values/-/react-native-get-random-values-1.11.0.tgz#1ca70d1271f4b08af92958803b89dccbda78728d"
-  integrity sha512-4BTbDbRmS7iPdhYLRcz3PGFIpFJBwNZg9g42iwa2P6FOv9vZj/xJc678RZXnLNZzd0qd7Q3CCF6Yd+CU2eoXKQ==
+react-native-get-random-values@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-get-random-values/-/react-native-get-random-values-2.1.0.tgz#8b08da2c01dd03e05167aa5a81092705cbceec22"
+  integrity sha512-ooSUj9zTICGZ/eDFzNCnC+Pyb0SxE6y2QtC8S8z/BBJY+9dUjjNWD0DgRCSfXuC/c2k9V03xLMF6y/yUYEk4ew==
   dependencies:
     fast-base64-decode "^1.0.0"
 
